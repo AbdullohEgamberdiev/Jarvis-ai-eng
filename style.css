@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.start-btn{
+  border: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 4px solid green;
+  border-right: 4px solid green;
+  border-radius:  40px;
+  background: none;
+  color: white;
+  width: 180px;
+  height: 70px;
+  font-size: 20px;
+  transition: all 1s ease;
+}
+.start-btn:hover{
+  font-size: 25px;
+}
+
+.stop-btn{
+  border: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 4px solid red;
+  border-right: 4px solid red;
+  border-radius:  40px;
+  background: none;
+  color: white;
+  width: 180px;
+  height: 70px;
+  font-size: 20px;
+  /* opacity: 0.4; */
+  transition: all .8s ease-in-out;
+}
+.stop-btn:hover{
+  font-size: 25px;
+}
+
+.speak-btn{
+  border: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 4px solid blue;
+  border-right: 4px solid blue;
+  border-radius:  40px;
+  background: none;
+  color: white;
+  width: 180px;
+  height: 70px;
+  font-size: 20px;
+  transition: all .8s ease-in-out;
+}
+.speak-btn:hover{
+  font-size: 25px;
+}
+
+
+body{
+  background-color: rgb(2,19,39);
+  border: 1px solid red;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+h1{
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+.btn-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+  border-radius: 20px;
+  width: 700px;
+  height: 200px;
+  gap: 50px;
+  box-shadow: 0px 0px 10px white;
+  transition: all .3s ease;
+  &:active{
+    box-shadow: 0px 0px 0px;
+  }
+}
+
+.gif-img{
+  margin: 0 auto;
+  width: 600px;
+}
+
+.gif-box{
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  border-top: none;
+  border-bottom: none;
+  max-width: auto;
+  padding: 100px;
+  height: 500px;
+}
+
+.commands__box{
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+}
+p{
+  color: white;
+  text-align: center;
+  line-height: 25px;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  .btn-box{
+    max-width: 600px;
+  }
+  .gif-box{
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .btn-box{
+    flex-direction: column;
+    max-width: 450px;
+    min-height: 500px;
+  }
+
+  .gif-img{
+    max-width: 500px;
+  }
+
+  .gif-box{
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gif-img{
+    max-width: 400px;
+  }
+
+  .gif-box{
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gif-img{
+    max-width: 300px;
+  }
+
+  .btn-box{
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gif-img{
+    max-width: 250px;
+  }
+
+  .btn-box{
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .gif-img{
+    max-width: 150px;
+  }
+
+  .btn-box{
+    max-width: 250px;
+  }
+
+  .gif-box{
+    height: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* HHHHHHHHHHHHHHHHHHHHHHHHH */
